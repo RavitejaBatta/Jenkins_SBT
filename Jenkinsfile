@@ -76,12 +76,12 @@ pipeline {
                steps{
                     step([$class: 'ScoveragePublisher', reportDir: 'target/scala-2.11/scoverage-report', reportFile: 'scoverage.xml'])
                     publishHTML([
-                                                            allowMissing: false,
-                                                            alwaysLinkToLastBuild: false,
-                                                            keepAll: true,
-                                                            reportDir: 'target/site/scoverage',
-                                                            reportFiles: 'index.html',
-                                                            reportName: 'Scoverage HTML Report'
+                                   allowMissing: false,
+                                   alwaysLinkToLastBuild: false,
+                                   keepAll: true,
+                                   reportDir: 'target/scala-2.11/scoverage-report',
+                                   reportFiles: 'index.html',
+                                   reportName: 'Scoverage HTML Report'
                                                           ])
                     }
                 }
