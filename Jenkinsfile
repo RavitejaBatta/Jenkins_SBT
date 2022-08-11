@@ -2,10 +2,11 @@ pipeline {
 	agent any
 	//agent { docker { image 'maven:3.6.3' } }
 	//agent { docker { image 'hseeberger/scala-sbt' } }
-	options {
-            ansiColor('xterm')
-        }
+
 	environment{
+	    options {
+                ansiColor('xterm')
+            }
 		dockerHome = tool 'myDocker'
               //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
         sbtHome = tool 'mySBT'
