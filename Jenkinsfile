@@ -2,19 +2,17 @@ pipeline {
 	agent any
 	//agent { docker { image 'maven:3.6.3' } }
 	//agent { docker { image 'hseeberger/scala-sbt' } }
-    options {
-            buildDiscarder(simpleBuildDiscarder(ansiColor:'xterm'))
-        }
+
 	environment{
 
 		dockerHome = tool 'myDocker'
-        //SBT_HOME = tool name: 'sbt1.2.8', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
+        SBT_HOME = tool name: 'sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
         //SBT_HOME = tool name: 'ADOP sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
-        //PATH = "${dockerHome}/bin:${env.SBT_HOME}/bin:${env.PATH}"
-        sbtHome = tool 'mySBT'
+        PATH = "${dockerHome}/bin:${env.SBT_HOME}/bin:${env.PATH}"
+        //sbtHome = tool 'mySBT'
         //SBT_OPTS = "${sbtHome} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
-        PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
+        //PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
 
             }
 	
