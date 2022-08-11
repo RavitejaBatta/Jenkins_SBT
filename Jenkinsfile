@@ -9,7 +9,6 @@ pipeline {
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
             }
-	}
 	
 	stages{
 		stage('Checkout') {
