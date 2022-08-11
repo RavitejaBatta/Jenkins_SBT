@@ -11,10 +11,10 @@ pipeline {
         //PATH = "${dockerHome}/bin:${env.SBT_HOME}/bin:${env.PATH}"
         sbtHome = tool 'mySBT'
         SBT_OPTS='-Xmx1024m -Xms512m'
-        SBT_OPTS = "${SBT_OPTS} -Dsbt.color=false"
+        SBTOPTS = "${SBT_OPTS} -Dsbt.color=false"
         //SBT_OPTS = "${sbtHome} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
-        PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
+        PATH = "$SBTOPTS:$dockerHome/bin:$sbtHome/bin:$PATH"
 
             }
 	
