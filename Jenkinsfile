@@ -7,7 +7,7 @@ pipeline {
               //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
         sbtHome = tool 'mySBT'
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
-        PATH = "$dockerHome/bin:$msbtHome/bin:$PATH"
+        PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
             }
 	}
 	
