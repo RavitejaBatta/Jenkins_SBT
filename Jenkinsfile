@@ -4,14 +4,14 @@ pipeline {
 	//agent { docker { image 'hseeberger/scala-sbt' } }
 
 	environment{
-	    options {
-                ansiColor('xterm')
-            }
+
 		dockerHome = tool 'myDocker'
               //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
         sbtHome = tool 'mySBT'
+        SBT_OPTS = "${sbtHome} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
+
             }
 	
 	stages{
