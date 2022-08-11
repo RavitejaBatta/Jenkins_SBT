@@ -6,6 +6,7 @@ pipeline {
 		dockerHome = tool 'myDocker'
               //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
         sbtHome = tool 'mySBT'
+        SBT_OPTS = "${SBT_OPTS} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
             }
@@ -74,7 +75,7 @@ pipeline {
                 }
         stage("Publishing covarage reports"){
                steps{
-                   archive (includes: 'pkg/*.gem')
+
                     step([$class: 'ScoveragePublisher', reportDir: 'target/scala-2.11/scoverage-report', reportFile: 'scoverage.xml'])
                     publishHTML target: [
                                    allowMissing: true,
