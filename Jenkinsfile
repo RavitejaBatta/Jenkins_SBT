@@ -7,12 +7,12 @@ pipeline {
 
 		dockerHome = tool 'myDocker'
         //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
-        SBT_HOME = tool name: 'ADOP sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
-        PATH = "${dockerHome}/bin:${env.SBT_HOME}/bin:${env.PATH}"
-        //sbtHome = tool 'mySBT'
+        //SBT_HOME = tool name: 'ADOP sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
+        //PATH = "${dockerHome}/bin:${env.SBT_HOME}/bin:${env.PATH}"
+        sbtHome = tool 'mySBT'
         //SBT_OPTS = "${sbtHome} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
-        //PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
+        PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
 
             }
 	
