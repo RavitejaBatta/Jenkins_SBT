@@ -2,7 +2,9 @@ pipeline {
 	agent any
 	//agent { docker { image 'maven:3.6.3' } }
 	//agent { docker { image 'hseeberger/scala-sbt' } }
-
+    options {
+            ansiColor('xterm')
+        }
 	environment{
 
 		dockerHome = tool 'myDocker'
