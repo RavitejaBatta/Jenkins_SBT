@@ -46,7 +46,7 @@ pipeline {
 
 		stage('Compile') {
         			steps{
-        				sh 'mvn clean compile'
+        				sh 'sbt clean compile'
         			}
         		}
 
