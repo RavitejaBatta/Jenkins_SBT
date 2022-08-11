@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FirstUseCaseTest, org.scalatest.tools.Framework$$anon$1@b1dd82b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFirstUseCaseTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMy add num function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMy add num function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 44[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 299 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FirstUseCaseTest[0m

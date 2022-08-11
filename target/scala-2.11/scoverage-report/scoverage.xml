@@ -1,0 +1,52 @@
+<scoverage 
+statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="75.00" version="1.0" timestamp="1660211940204">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="11" statements-invoked="9" statement-rate="81.82">
+            <classes>
+                <class 
+                name="FirstUseCase" filename="FirstUseCase.scala" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="75.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/FirstUseCase/add2Num" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="75.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="137" end="143" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="106" end="167" line="8" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="87" end="92" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="120" end="126" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="114" end="116" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="137" end="143" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="163" end="167" line="11" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="70" end="76" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="163" end="167" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="87" end="92" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="110" end="126" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

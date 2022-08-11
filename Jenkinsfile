@@ -74,15 +74,16 @@ pipeline {
                 }
         stage("Publishing covarage reports"){
                steps{
+                   archive (includes: 'pkg/*.gem')
                     step([$class: 'ScoveragePublisher', reportDir: 'target/scala-2.11/scoverage-report', reportFile: 'scoverage.xml'])
-                    publishHTML([
-                                   allowMissing: false,
-                                   alwaysLinkToLastBuild: true,
+                    publishHTML target: [
+                                   allowMissing: true,
+                                   alwaysLinkToLastBuild: false,
                                    keepAll: true,
                                    reportDir: 'target/scala-2.11/scoverage-report',
-                                   reportFiles: '*.html',
-                                   reportName: 'Scoverage HTML Report'
-                                                          ])
+                                   reportFiles: 'index.html',
+                                   reportName: 'Code Coverage Report'
+                                                          ]
                     }
                 }
        // stage('Jacoco Code Coverage') {

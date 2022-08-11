@@ -1,0 +1,210 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+70
+76
+6
+scala.Int.<
+Apply
+false
+0
+false
+a.<(10)
+
+2
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+87
+92
+7
+scala.Int.+
+Apply
+false
+0
+false
+a.+(3)
+
+3
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+87
+92
+7
+scala.Int.+
+Block
+true
+0
+false
+a.+(3)
+
+4
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+114
+116
+8
+<nosymbol>
+Literal
+false
+0
+false
+10
+
+5
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+120
+126
+8
+scala.Int.<
+Apply
+false
+0
+false
+a.<(20)
+
+6
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+110
+126
+8
+scala.Boolean.&&
+Apply
+false
+0
+false
+a.>(10).&&(a.<(20))
+
+7
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+137
+143
+9
+scala.Int.+
+Apply
+false
+0
+false
+a.+(30)
+
+8
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+137
+143
+9
+scala.Int.+
+Block
+true
+0
+false
+a.+(30)
+
+9
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+163
+167
+11
+<nosymbol>
+Literal
+false
+0
+false
+1000
+
+10
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+163
+167
+11
+<nosymbol>
+Block
+true
+0
+false
+1000
+
+11
+/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala
+<empty>
+FirstUseCase
+Object
+FirstUseCase
+add2Num
+106
+167
+8
+<nosymbol>
+If
+true
+0
+false
+if (a.>(10).&&(a.<(20)))
+  a.+(30)
+else
+  1000
+
