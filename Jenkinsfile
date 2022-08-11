@@ -4,10 +4,10 @@ pipeline {
 	//agent { docker { image 'hseeberger/scala-sbt' } }
 	environment{
 		dockerHome = tool 'myDocker'
-		environment {
               //SBT_HOME = tool name: 'sbt.13.13', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
-              SBT_HOME = tool 'mySBT'
-              PATH = "${env.SBT_HOME}/bin:${env.PATH}"
+        sbtHome = tool 'mySBT'
+        //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
+        PATH = "$dockerHome/bin:$msbtHome/bin:$PATH"
             }
 	}
 	
