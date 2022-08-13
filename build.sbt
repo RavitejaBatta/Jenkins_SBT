@@ -10,7 +10,8 @@ lazy val root = (project in file("."))
   .settings(fork in run := true)
   .settings(connectInput in run := true)
   .settings(
-      scalastyleFailOnError := true,
+      name := "Jenkins_SBT",
+      scalastyleFailOnError := false,
       compileScalastyle := scalastyle.in(Compile).toTask("").value,
       (compile in Compile) := ((compile in Compile) dependsOn compileScalastyle).value,
       testScalastyle := scalastyle.in(Test).toTask("").value,
