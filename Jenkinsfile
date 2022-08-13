@@ -18,12 +18,15 @@ pipeline {
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
         //withCredentials([string(credentialsId: 'SECRET_TEXT', variable: 'secret_text')])
-        secret_text = credentials('SECRET_TEXT')
+        //secret_text = credentials('SECRET_TEXT')
      }
 
 	stages{
 
 		stage('Checkout') {
+		    environment{
+		            secret_text = credentials('SECRET_TEXT')
+		    }
 			steps{
 				sh 'sbt --version'
 				sh 'docker version'
