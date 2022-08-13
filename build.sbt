@@ -2,18 +2,19 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "2.11.8"
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "Jenkins_SBT"
-  )
+
 
 lazy val compileScalastyle = taskKey[Unit]("compileScalastyle")
 
+lazy val root = (project in file("."))
+  .settings(
+    name := "Jenkins_SBT",
+    scalastyleFailOnError := true,
 // scalastyle >= 0.9.0
-compileScalastyle := scalastyle.in(Compile).toTask("").value
+    compileScalastyle := scalastyle.in(Compile).toTask("").value,
 
-(compile in Compile) := ((compile in Compile) dependsOn compileScalastyle).value
-
+    (compile in Compile) := ((compile in Compile) dependsOn compileScalastyle).value
+)
 val sparkVersion = "2.4.3"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.12" % "test"
