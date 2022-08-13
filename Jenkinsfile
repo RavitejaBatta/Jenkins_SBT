@@ -2,7 +2,9 @@ pipeline {
 	agent any
 	//agent { docker { image 'maven:3.6.3' } }
 	//agent { docker { image 'hseeberger/scala-sbt' } }
-
+    tools {
+            jdk 'jdk8'
+        }
 	environment{
 
 		dockerHome = tool 'myDocker'
@@ -18,16 +20,9 @@ pipeline {
 
             }
 
-	stage('java8') {
-            agent {
-                docker { image 'openjdk:8-jdk' }
-            }
-            steps {
-                sh 'java -version'
-            }
-        }
 
 	stages{
+
 		stage('Checkout') {
 			steps{
 				sh 'sbt --version'
