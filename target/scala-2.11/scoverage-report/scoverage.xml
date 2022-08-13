@@ -1,0 +1,233 @@
+<scoverage 
+statement-count="38" statements-invoked="33" statement-rate="86.84" branch-rate="75.00" version="1.0" timestamp="1660398773039">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="38" statements-invoked="33" statement-rate="86.84">
+            <classes>
+                <class 
+                name="CardiB" filename="CardiB.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CardiB/iLike" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CardiB" class-type="Object" full-class-name="CardiB" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala" method="iLike" start="116" end="125" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CardiB" class-type="Object" full-class-name="CardiB" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala" method="iLike" start="116" end="147" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CardiB" class-type="Object" full-class-name="CardiB" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala" method="iLike" start="128" end="147" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CardiB/realName" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CardiB" class-type="Object" full-class-name="CardiB" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala" method="realName" start="49" end="68" line="3" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Pizza" filename="Pizza.scala" statement-count="7" statements-invoked="6" statement-rate="85.71" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Pizza/addTopping" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="addTopping" start="186" end="186" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="addTopping" start="177" end="190" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Pizza/removeTopping" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="removeTopping" start="227" end="240" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="removeTopping" start="236" end="236" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Pizza/boom" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="boom" start="292" end="320" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Pizza/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="&lt;none&gt;" start="119" end="143" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Pizza/getToppings" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Pizza" class-type="Class" full-class-name="Pizza" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala" method="getToppings" start="262" end="277" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="FirstUseCase" filename="FirstUseCase.scala" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="75.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/FirstUseCase/add2Num" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="75.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="137" end="143" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="87" end="92" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="106" end="167" line="8" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="120" end="126" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="114" end="116" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="137" end="143" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="70" end="76" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="163" end="167" line="11" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="163" end="167" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="87" end="92" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="FirstUseCase" class-type="Object" full-class-name="FirstUseCase" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala" method="add2Num" start="110" end="126" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Person" filename="Person.scala" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Person/&lt;none&gt;" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="&lt;none&gt;" start="74" end="127" line="3" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="&lt;none&gt;" start="92" end="126" line="3" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="&lt;none&gt;" start="82" end="90" line="3" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Person/getFullName" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="getFullName" start="190" end="210" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="getFullName" start="184" end="187" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="getFullName" start="149" end="221" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="getFullName" start="190" end="221" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="getFullName" start="149" end="170" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Person_1" filename="Person.scala" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Person_1/fullName" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person_1" class-type="Class" full-class-name="Person_1" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="fullName" start="329" end="332" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person_1" class-type="Class" full-class-name="Person_1" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="fullName" start="317" end="343" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person_1" class-type="Class" full-class-name="Person_1" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala" method="fullName" start="335" end="343" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="CubeCalculator" filename="CubeCalculator.scala" statement-count="5" statements-invoked="3" statement-rate="60.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/divide" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CubeCalculator" class-type="Object" full-class-name="CubeCalculator" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala" method="divide" start="221" end="226" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/cube" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CubeCalculator" class-type="Object" full-class-name="CubeCalculator" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala" method="cube" start="63" end="72" line="3" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/multiply" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CubeCalculator" class-type="Object" full-class-name="CubeCalculator" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala" method="multiply" start="184" end="189" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/subtract" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CubeCalculator" class-type="Object" full-class-name="CubeCalculator" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala" method="subtract" start="145" end="150" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/add" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CubeCalculator" class-type="Object" full-class-name="CubeCalculator" source="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala" method="add" start="106" end="111" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

@@ -1,0 +1,78 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FirstUseCaseTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Person_Test, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CardIBSpecTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Pizza_Junit, sbt.SubclassFingerprintWrapper@5d36417b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AppTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SampleTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SampleFunSuite, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ToppingTests, sbt.AnnotatedFingerprintWrapper@562a209c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CalculatorPropSpec, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SampleFlatSpecTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SamplePersonTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CubeCalculatorTest, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PizzaTests, org.scalatest.tools.Framework$$anon$1@65fc225d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculatorPropSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Calculator multiply by 0 should be 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Calculator divide by 0 should throw some math error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleFunSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test list methods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test array methods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPerson_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfullName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns the first name and last name concatenated[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCardIBSpecTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrealName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns her birth name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32miLike[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- works with a single argument[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- works with multiple arguments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSamplePersonTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32ma person[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when being created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should throw an exception if it's given a zero or negative age[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - correctly formats first and last names[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCubeCalculatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiplication with 0 should always give 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing by 0 should throw a math error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPizzaTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- new pizza has zero toppings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- adding one topping[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- test pizza pricing (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Stack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pop values in last-in-first-out order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw NoSuchElementException if an empty stack is popped[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleFlatSpecTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Stack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pop values in last-in-first-out order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw NoSuchElementException if an empty stack is popped[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFirstUseCaseTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMy add num function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMy add num function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 44[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAppTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- this is sample test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 827 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 11, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 22, failed 0, canceled 0, ignored 0, pending 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 25, Failed 0, Errors 0, Passed 25, Pending 1[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ToppingTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFlatSpecTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AppTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pizza_Junit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FirstUseCaseTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person_Test[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFunSuite[0m

@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.87" lines-valid="38" lines-covered="33" branches-valid="4" branches-covered="3" branch-rate="0.75" complexity="0" version="1.0" timestamp="1660398772991">
+    <sources>
+        <source>--source</source>
+        <source>/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="&lt;empty&gt;" line-rate="0.87" branch-rate="0.75" complexity="0">
+            <classes>
+                <class name="CardiB" filename="CardiB.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/CardiB/iLike" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/CardiB/realName" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="3" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="3" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Pizza" filename="Pizza.scala" line-rate="0.86" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Pizza/addTopping" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Pizza/removeTopping" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Pizza/boom" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="13" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Pizza/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Pizza/getToppings" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="11" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="13" hits="0" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="FirstUseCase" filename="FirstUseCase.scala" line-rate="0.82" branch-rate="0.75" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/FirstUseCase/add2Num" signature="()V" line-rate="0.82" branch-rate="0.75" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Person" filename="Person.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Person/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="3" hits="1" branch="false"/>
+                                <line number="3" hits="1" branch="false"/>
+                                <line number="3" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Person/getFullName" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="3" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="3" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="3" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Person_1" filename="Person.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Person_1/fullName" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="CubeCalculator" filename="CubeCalculator.scala" line-rate="0.60" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/CubeCalculator/divide" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/CubeCalculator/cube" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="3" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/multiply" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="8" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CubeCalculator/subtract" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="0" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CubeCalculator/add" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="6" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="3" hits="1" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/ravbatta/Documents/git/Jenkins_SBT/target/scala-2.11/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TraitSparkSessionTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFlatSpecTest$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFunSuite$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AppTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFlatSpecTest$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFlatSpecTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainTest$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFlatSpecTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FirstUseCaseTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFunSuite$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AppTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest$$anonfun$2$$anonfun$apply$mcV$sp$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FirstUseCaseTest$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFunSuite$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ToppingTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person_Test$$anonfun$1$$anonfun$apply$mcV$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleTest$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleFunSuite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SampleTest$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec$$anonfun$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest$$anonfun$2$$anonfun$apply$mcV$sp$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FirstUseCaseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SamplePersonTest$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CalculatorPropSpec$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PizzaTests$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person_Test$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TraitSparkSessionTest$class.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardIBSpecTest$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pizza_Junit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/ravbatta/Documents/git/Jenkins_SBT/target/scala-2.11/test-classes.bak[0m
