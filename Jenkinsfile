@@ -17,7 +17,8 @@ pipeline {
         //SBT_OPTS = "${sbtHome} -Dsbt.color=false"
         //PATH = "${env.SBT_HOME}/bin:${env.PATH}"
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
-        withCredentials([string(credentialsId: 'SECRET_TEXT', variable: 'secret_text')])
+        //withCredentials([string(credentialsId: 'SECRET_TEXT', variable: 'secret_text')])
+        secret_text = credentials('SECRET_TEXT')
      }
 
 	stages{
