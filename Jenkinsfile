@@ -19,7 +19,7 @@ pipeline {
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
         withCredentials([string(credentialsId: 'SECRET_TEXT', variable: 'secret_text')])
         {
-            echo 'My Secret text is ${secret_text}'
+            secret_text : ${SECRET_TEXT}
 		}
      }
 
@@ -36,6 +36,7 @@ pipeline {
 				echo "BUILD_ID - $env.BUILD_ID"
 				echo "JOB_NAME - $env.JOB_NAME"
 				echo "BUILD_TAG - $env.BUILD_TAG"
+				echo "My Secret text is ${secret_text}"
 			}
 		}
 
