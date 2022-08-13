@@ -34,7 +34,7 @@ pipeline {
 				echo "BUILD_ID - $env.BUILD_ID"
 				echo "JOB_NAME - $env.JOB_NAME"
 				echo "BUILD_TAG - $env.BUILD_TAG"
-				echo "My Secret text is $secret_text"
+				sh "echo 'My Secret text is $secret_text'"
 			}
 		}
 
