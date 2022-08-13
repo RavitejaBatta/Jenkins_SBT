@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jenkins_SBT.iml" filepath="$PROJECT_DIR$/.idea/modules/Jenkins_SBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jenkins_SBT-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Jenkins_SBT-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,1 +1,1 @@
-[[{},{}],{}]
+[[{"${BASE}/src/main/resources/scalastyle-config.xml":["${BASE}/target/scala-2.11/classes/scalastyle-config.xml"]},{"${BASE}/target/scala-2.11/classes/scalastyle-config.xml":["${BASE}/src/main/resources/scalastyle-config.xml"]}],{"${BASE}/src/main/resources/scalastyle-config.xml":{"file":"file:///Users/ravbatta/Documents/git/Jenkins_SBT/src/main/resources/scalastyle-config.xml","lastModified":1658920656337}}]

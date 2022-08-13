@@ -1,0 +1,26 @@
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /Users/ravbatta/Documents/git/Jenkins_SBT/scalastyle-config.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/SampleFunSuite.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/SampleFunSuite.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/FirstUseCase.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Main.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 7 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 4 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 8 ms[0m
+[0m[[0m[32msuccess[0m] [0m[0mcreated output: /Users/ravbatta/Documents/git/Jenkins_SBT/target[0m

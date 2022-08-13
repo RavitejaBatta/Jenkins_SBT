@@ -1,5 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0mCleaning datadir [/Users/ravbatta/Documents/git/Jenkins_SBT/target/scala-2.11/scoverage-data][0m
 [0m[[0m[0minfo[0m] [0m[0mBeginning coverage instrumentation[0m
-[0m[[0m[0minfo[0m] [0m[0mInstrumentation completed [11 statements][0m
+[0m[[0m[0minfo[0m] [0m[0mInstrumentation completed [38 statements][0m
 [0m[[0m[0minfo[0m] [0m[0mWrote instrumentation file [/Users/ravbatta/Documents/git/Jenkins_SBT/target/scala-2.11/scoverage-data/scoverage.coverage][0m
 [0m[[0m[0minfo[0m] [0m[0mWill write measurement data to [/Users/ravbatta/Documents/git/Jenkins_SBT/target/scala-2.11/scoverage-data][0m

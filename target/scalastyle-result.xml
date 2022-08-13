@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CardiB.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="error" message="File must end with newline character"/>
+ </file>
+ <file name="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/CubeCalculator.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="error" message="File must end with newline character"/>
+ </file>
+ <file name="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Person.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="error" message="File must end with newline character"/>
+ </file>
+ <file name="/Users/ravbatta/Documents/git/Jenkins_SBT/src/main/scala/Pizza.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="error" message="File must end with newline character"/>
+ </file>
+</checkstyle>
