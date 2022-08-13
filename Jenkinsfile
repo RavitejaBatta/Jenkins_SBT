@@ -19,7 +19,7 @@ pipeline {
         PATH = "$dockerHome/bin:$sbtHome/bin:$PATH"
         withCredentials([string(credentialsId: 'SECRET_TEXT', variable: 'secret_text')])
         {}
-
+     }
 
 	stages{
 
