@@ -126,7 +126,7 @@ pipeline {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
 				script{
-					dockerImage = docker.build("jenkinservice/scala-sbt-project:$env.BUILD_TAG")
+					dockerImage = docker.build("myjenkins/scala-sbt-project:$env.BUILD_TAG")
 				}
 			}
 		}
@@ -134,7 +134,7 @@ pipeline {
 		stage('Push Docker Image') {
 			steps{
 				script{
-                    docker.withRegistry('https://registry.hub.docker.com','jenkinservice'){
+                    docker.withRegistry('','jenkinservice'){
 					dockerImage.push();
 					dockerImage.push('latest');
 					}
