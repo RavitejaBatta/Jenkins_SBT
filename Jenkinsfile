@@ -134,7 +134,7 @@ pipeline {
 		stage('Push Docker Image') {
 			steps{
 				script{
-                    docker.withRegistry('','jenkinservice'){
+                    docker.withRegistry('https://registry.hub.docker.com','jenkinservice'){
 					dockerImage.push();
 					dockerImage.push('latest');
 					}
