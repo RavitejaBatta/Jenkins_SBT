@@ -90,9 +90,9 @@ pipeline {
 				sh 'sbt package -DskipTests'
 			}
 		}
-        stage("Application Unit Tests"){
+        stage("Scoverage"){
                     steps{
-                        sh "sbt clean coverage test coverageReport"
+                        sh "sbt coverage coverageReport"
                     }
                 }
         stage("Publishing covarage reports"){
@@ -126,7 +126,7 @@ pipeline {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
 				script{
-					dockerImage = docker.build("myjenkins/scala-sbt-project:$env.BUILD_TAG")
+					dockerImage = docker.build("jenkinservice/scala-sbt-project:$env.BUILD_TAG")
 				}
 			}
 		}
