@@ -31,6 +31,7 @@ pipeline {
 				sh 'sbt --version'
 				sh 'docker version'
 				sh 'java -version'
+				sh "printenv | sort"
 				echo "Build"
 				echo "$PATH"
 				echo "BUILD_NUMBER - $env.BUILD_NUMBER"
@@ -121,11 +122,11 @@ pipeline {
         //                }
         //           }
         //    }
-		/*stage('Build Docker Image') {
+		stage('Build Docker Image') {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
 				script{
-					dockerImage = docker.build("jenkinservice/jenkinsmicroservice:$env.BUILD_TAG")
+					dockerImage = docker.build("jenkinservice/scala-sbt-project:$env.BUILD_TAG")
 				}
 			}
 		}
@@ -139,7 +140,7 @@ pipeline {
 					}
 				}
 			}
-		}*/
+		}
 	} 
 	
 	post{
