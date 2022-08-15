@@ -23,6 +23,22 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.12" % "test"
 libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default"
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion
-
+libraryDependencies += "org.sonarsource.scanner.api" % "sonar-scanner-api" % "2.16.1.361" % Compile
 // sbt clean coverage test
 // export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
+
+import sbtsonar.SonarPlugin.autoImport.sonarProperties
+
+sonarProperties := Map(
+"sonar.host.url" -> "http://localhost:9000",
+"sonar.projectName" -> "Project Name",
+"sonar.projectKey" -> "project-name",
+"sonar.sources" -> "src/main/scala",
+"sonar.tests" -> "src/test/scala",
+"sonar.junit.reportPaths" -> "target/test-reports",
+"sonar.sourceEncoding" -> "UTF-8",
+"sonar.language" -> "scala",
+"sonar.scala.scoverage.reportPath" -> "target/scala-2.12/scoverage-report/scoverage.xml"
+
+)

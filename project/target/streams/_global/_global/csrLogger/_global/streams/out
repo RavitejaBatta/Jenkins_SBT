@@ -1,6 +1,8 @@
-[debug] downloaded https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/0.7.0/scalastyle-sbt-plugin-0.7.0.pom
-[debug] downloaded https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/0.7.0/scalastyle-sbt-plugin-0.7.0.pom.sha1
-[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/0.7.0/ivys/ivy.xml
-[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/0.7.0/ivys/ivy.xml.sha1
-[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/0.7.0/ivys/ivy.xml
-[debug] downloaded https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/0.7.0/ivys/ivy.xml.sha1
+[debug] downloaded https://repo1.maven.org/maven2/com/github/mwz/sbt-sonar_2.12_1.0/2.1.1/sbt-sonar-2.1.1.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/github/mwz/sbt-sonar_2.12_1.0/2.1.1/sbt-sonar-2.1.1.pom.sha1
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+[debug] downloaded https://repo1.maven.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.15.0.2182/sonar-scanner-api-2.15.0.2182.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.15.0.2182/sonar-scanner-api-parent-2.15.0.2182.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/sonarsource/parent/parent/54/parent-54.pom
+[debug] downloaded https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.12/sbt_1.0/2.1.1/jars/sbt-sonar.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.15.0.2182/sonar-scanner-api-2.15.0.2182.jar

@@ -1,0 +1,44 @@
+[0m[[0m[0minfo[0m] [0m[0mUser cache: /Users/ravbatta/.sonar/cache[0m
+[0m[[0m[0minfo[0m] [0m[0mSonarQube server version: 9.5.0.56709[0m
+[0m[[0m[0minfo[0m] [0m[0mDefault locale: "en_GB", source code encoding: "UTF-8"[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.UnsupportedClassVersionError: org/sonar/batch/bootstrapper/EnvironmentInformation has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.defineClass1(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.internal.IsolatedClassloader.loadClass(IsolatedClassloader.java:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.internal.batch.DefaultBatchFactory.createBatch(DefaultBatchFactory.java:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:46)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.proxy.$Proxy3.execute(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.EmbeddedScanner.doExecute(EmbeddedScanner.java:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:138)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtsonar.SonarPlugin$.useEmbeddedScanner(SonarPlugin.scala:232)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtsonar.SonarPlugin$.$anonfun$projectSettings$4(SonarPlugin.scala:100)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtsonar.SonarPlugin$.$anonfun$projectSettings$4$adapted(SonarPlugin.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
+[0m[[0m[31merror[0m] [0m[0m([31msonarScan[0m) java.lang.UnsupportedClassVersionError: org/sonar/batch/bootstrapper/EnvironmentInformation has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0[0m
