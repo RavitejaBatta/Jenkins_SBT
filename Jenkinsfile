@@ -32,6 +32,7 @@ pipeline {
 				sh 'docker version'
 				sh 'java -version'
 				sh "printenv | sort"
+				sh 'docker logout'
 				echo "Build"
 				echo "$PATH"
 				echo "BUILD_NUMBER - $env.BUILD_NUMBER"
