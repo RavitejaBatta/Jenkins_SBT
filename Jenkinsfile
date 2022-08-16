@@ -93,7 +93,7 @@ pipeline {
 		}
         stage("Scoverage"){
                     steps{
-                        sh "sbt clean coverage coverageReport"
+                        sh "sbt clean coverage test coverageReport"
                     }
                 }
         stage("Publishing covarage reports"){
