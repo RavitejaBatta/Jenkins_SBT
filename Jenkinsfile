@@ -76,6 +76,25 @@ pipeline {
                                                           ]
                     }
                 }
+        stage('Build Docker Image') {
+        			steps{
+        				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
+        				script{
+        					dockerImage = docker.build("jenkinservice/scala-sbt-project:$env.BUILD_TAG")
+        				}
+        			}
+        		}
+
+        		stage('Push Docker Image') {
+        			steps{
+        				script{
+                            docker.withRegistry('','jenkinservice'){
+        					dockerImage.push();
+        					dockerImage.push('latest');
+        					}
+        				}
+        			}
+        		}
 	} 
 	
 	post{
