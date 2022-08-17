@@ -85,16 +85,6 @@ pipeline {
         			}
         		}
 
-        		stage('Push Docker Image') {
-        			steps{
-        				script{
-                            docker.withRegistry('','jenkinservice'){
-        					dockerImage.push();
-        					dockerImage.push('latest');
-        					}
-        				}
-        			}
-        		}
 	} 
 	
 	post{
