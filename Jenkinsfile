@@ -88,7 +88,7 @@ pipeline {
         			steps{
         				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
         				script{
-						docker.withRegistry('','jenkinservice'){
+						docker.withRegistry('','dockerhub'){
 						dockerImage.push();
 						dockerImage.push('latest');
 						}
