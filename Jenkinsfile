@@ -84,6 +84,16 @@ pipeline {
         				}
         			}
         		}
+	stage('Push Docker Image') {
+        			steps{
+        				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
+        				script{
+        					docker.withRegistry('','SECRETTEXT')
+						dockerImage.push()
+						dockerImage.push('latest')
+        				}
+        			}
+        		}
 
 	} 
 	
