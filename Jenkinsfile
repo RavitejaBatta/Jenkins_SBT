@@ -3,7 +3,7 @@ pipeline {
 	//agent { docker { image 'maven:3.6.3' } }
 	//agent { docker { image 'hseeberger/scala-sbt' } }
     tools {
-            jdk 'myJDK'
+            jdk 'jdk8'
         }
 	environment{
 
