@@ -6,7 +6,10 @@ ThisBuild / scalaVersion := "2.11.8"
 lazy val root = (project in file("."))
   .settings(
       name := "Jenkins_SBT",
-      scalastyleFailOnError := false
+      scalastyleFailOnError := false,
+      coverageEnabled := true,
+      coverageMinimum := 70,
+      coverageFailOnMinimum := true
   )
 lazy val compileScalastyle = taskKey[Unit]("compileScalastyle")
 
