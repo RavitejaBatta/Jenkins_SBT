@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
       name := "Jenkins_SBT",
       scalastyleFailOnError := false,
       coverageEnabled := true,
-      coverageMinimum := 90,
+      coverageMinimum := 80,
       coverageFailOnMinimum := true
   )
 lazy val compileScalastyle = taskKey[Unit]("compileScalastyle")
