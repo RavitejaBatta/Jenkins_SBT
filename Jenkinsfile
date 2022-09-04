@@ -88,7 +88,7 @@ pipeline {
         			steps{
         				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
         				script{
-						docker.withRegistry('','SECRETTEXT'){
+						docker.withRegistry('','jenkinservice'){
 						dockerImage.push();
 						dockerImage.push('latest');
 						}
