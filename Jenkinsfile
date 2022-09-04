@@ -71,7 +71,7 @@ pipeline {
                                    alwaysLinkToLastBuild: false,
                                    keepAll: true,
                                    reportDir: 'target/scala-2.11/scoverage-report',
-                                   reportFiles: 'index.html',
+                                   reportFiles: '*.html',
                                    reportName: 'Code Coverage Report'
                                                           ]
                     }
