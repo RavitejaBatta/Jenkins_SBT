@@ -80,7 +80,7 @@ pipeline {
         			steps{
         				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
         				script{
-        					dockerImage = docker.build("jenkinservice/scala-sbt-project:$env.BUILD_TAG")
+        					dockerImage = docker.build("jenkinservice/jenkins-sbt-project:$env.BUILD_TAG")
         				}
         			}
         		}
